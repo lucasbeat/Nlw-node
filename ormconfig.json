@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": "5436",
+    "username": "postgres",
+    "password": "NirgN",
+    "database": "nlwe",
+    "migrations": ["./src/database/migrations/**.ts"],
+    "entities": ["./src/models/**.ts"],
+    "logging": true,
+    "cli": {
+      "migrationsDir": "./src/database/migrations"
+    }
+  }
+  
